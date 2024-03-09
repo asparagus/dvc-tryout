@@ -1,0 +1,5 @@
+outs:
+- md5: d81d6df1a465c21ced984cb8b17240f6
+  size: 37
+  hash: md5
+  path: strings.txt
