@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  copy:
+    cmd: cp strings.txt out.txt
+    deps:
+    - path: strings.txt
+      hash: md5
+      md5: d81d6df1a465c21ced984cb8b17240f6
+      size: 37
+    outs:
+    - path: out.txt
+      hash: md5
+      md5: d81d6df1a465c21ced984cb8b17240f6
+      size: 37
