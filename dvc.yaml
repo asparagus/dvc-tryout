@@ -1,0 +1,7 @@
+stages:
+  copy:
+    cmd: cp strings.txt out.txt
+    deps:
+    - strings.txt
+    outs:
+    - out.txt
